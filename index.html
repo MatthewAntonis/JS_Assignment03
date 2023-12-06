@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Student Information -->
+        <header>
+            <p id="student-info">Student ID: 200373088, Name: Matthew Antonis</p>
+        </header>
+
+        <!-- Weather Form -->
+        <form id="city-form" class="city-form">
+            <input type="text" id="city-input" placeholder="Enter City" required>
+            <button type="submit">Get Weather</button>
+        </form>
+
+        <!-- Weather Display Section -->
+        <div id="weather"></div>
+        <div id="time"></div>
+
+        <footer>
+            <p>For more information, check out the <a href="https://openweathermap.org/current" target="_blank">OpenWeatherMap API Documentation</a>.</p>
+        </footer>
+    </div>
+</body>
+</html>
