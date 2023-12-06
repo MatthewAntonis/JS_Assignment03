@@ -14,7 +14,7 @@ This weather app provides real-time weather information and local time for any c
 - HTML
 - CSS
 - JavaScript
-- OpenWeatherMap API ([Doc]([url](https://openweathermap.org/current)))
+- OpenWeatherMap API https://openweathermap.org/current
 
 ## How to Use
 1. Open the app.
